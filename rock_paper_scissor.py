@@ -3,7 +3,7 @@ import random
 
 # Ask the player to choose its option
 def play():
-    player = input("What's your choice? 'R' for Rock, 'P' for Paper, 'S' for Scissor\n").lower
+    player = input("What's your choice? 'R' for Rock, 'P' for Paper, 'S' for Scissor\n").lower()
     computer = random.choice(['r', 'p', 's'])
 
     if player == computer:
